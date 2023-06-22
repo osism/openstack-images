@@ -1,0 +1,31 @@
+---
+images:
+
+  - name: Fedora 37
+    enable: true
+    shortname: fedora-37
+    format: qcow2
+    login: fedora
+    min_disk: 4
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_scsi_model: virtio-scsi
+      hw_rng_model: virtio
+      hw_watchdog_action: reset
+      os_distro: fedora
+      os_version: '37'
+      replace_frequency: quarterly
+      uuid_validity: last-3
+      provided_until: none
+    tags: []
+    versions:
+      - version: '20230402'
+        url: https://minio.services.osism.tech/openstack-image-manager/fedora-37/20230402/Fedora-Cloud-Base-37-1.7.x86_64.qcow2
+        source: https://download.fedoraproject.org/pub/fedora/linux/releases/37/Cloud/x86_64/images/Fedora-Cloud-Base-37-1.7.x86_64.qcow2
+        checksum: "sha256:b5b9bec91eee65489a5745f6ee620573b23337cbb1eb4501ce200b157a01f3a0"
+        build_date: '2022-11-05'

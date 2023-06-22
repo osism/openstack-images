@@ -1,0 +1,278 @@
+---
+images:
+  - name: Ubuntu 14.04
+    enable: false
+    shortname: ubuntu-14.04
+    format: qcow2
+    login: ubuntu
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_rng_model: virtio
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: ubuntu
+      os_version: '14.04'
+      replace_frequency: never
+      uuid_validity: none
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cloud-images.ubuntu.com/trusty/current/SHA256SUMS
+    latest_url: 
+      https://cloud-images.ubuntu.com/trusty/current/trusty-server-cloudimg-amd64-disk1.img
+    versions:
+      - version: '20191107'
+        url: 
+          https://minio.services.osism.tech/openstack-image-manager/ubuntu-14.04/20191107-ubuntu-14.04.qcow2
+        checksum: sha256:3c4ad0defbe729dd3c16d2851d775575d1c5351c85734418d3b89bfdfd28ebd1
+        build_date: 2019-11-07
+  - name: Ubuntu 16.04
+    enable: false
+    shortname: ubuntu-16.04
+    format: qcow2
+    login: ubuntu
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_rng_model: virtio
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: ubuntu
+      os_version: '16.04'
+      replace_frequency: never
+      uuid_validity: none
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cloud-images.ubuntu.com/xenial/current/SHA256SUMS
+    latest_url: 
+      https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-disk1.img
+    versions:
+      - version: '20211001'
+        url: 
+          https://minio.services.osism.tech/openstack-image-manager/ubuntu-16.04/20211001-ubuntu-16.04.qcow2
+        checksum: sha256:fff2494a70bcaffb59f26f71ec49e137dd87d319341c35832dbe0ea65ff15140
+        build_date: 2021-10-01
+  - name: Ubuntu 16.04 Minimal
+    enable: false
+    shortname: ubuntu-16.04-minimal
+    format: qcow2
+    login: ubuntu
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_rng_model: virtio
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: ubuntu
+      os_version: '16.04'
+      replace_frequency: never
+      uuid_validity: none
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cloud-images.ubuntu.com/minimal/releases/xenial/release/SHA256SUMS
+    latest_url: 
+      https://cloud-images.ubuntu.com/minimal/releases/xenial/release/ubuntu-16.04-minimal-cloudimg-amd64-disk1.img
+    versions:
+      - version: '20210929'
+        url: 
+          https://minio.services.osism.tech/openstack-image-manager/ubuntu-16.04-minimal/20210929-ubuntu-16.04-minimal.qcow2
+        checksum: sha256:7658ec30373e7ad1a1858744f395a89713d333721d7d1986ee8b71680b81a0a9
+        build_date: 2021-09-20
+  - name: Ubuntu 18.04
+    enable: false
+    shortname: ubuntu-18.04
+    format: qcow2
+    login: ubuntu
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_rng_model: virtio
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: ubuntu
+      os_version: '18.04'
+      replace_frequency: quarterly
+      uuid_validity: last-3
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cloud-images.ubuntu.com/bionic/current/SHA256SUMS
+    latest_url: https://cloud-images.ubuntu.com/bionic/current/bionic-server-cloudimg-amd64.img
+    versions:
+      - version: '20230607'
+        url: 
+          https://minio.services.osism.tech/openstack-image-manager/ubuntu-18.04/20230607-ubuntu-18.04.qcow2
+        checksum: sha256:8dd2e6b5e5aad20c3f836123b300cba9861249408cbb07c359145a65d6bab6b6
+        build_date: '2023-06-07'
+  - name: Ubuntu 18.04 Minimal
+    enable: false
+    shortname: ubuntu-18.04-minimal
+    format: qcow2
+    login: ubuntu
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_rng_model: virtio
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: ubuntu
+      os_version: '18.04'
+      replace_frequency: quarterly
+      uuid_validity: last-3
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cloud-images.ubuntu.com/minimal/releases/bionic/release/SHA256SUMS
+    latest_url: 
+      https://cloud-images.ubuntu.com/minimal/releases/bionic/release/ubuntu-18.04-minimal-cloudimg-amd64.img
+    versions:
+      - version: '20230602'
+        url: 
+          https://minio.services.osism.tech/openstack-image-manager/ubuntu-18.04-minimal/20230602-ubuntu-18.04-minimal.qcow2
+        checksum: sha256:2d9755669c499e88d51da0638cd20e0983a248828e2153906c013bea0ee2f45a
+        build_date: '2023-06-02'
+  - name: Ubuntu 20.04
+    enable: true
+    shortname: ubuntu-20.04
+    format: qcow2
+    login: ubuntu
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_rng_model: virtio
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: ubuntu
+      os_version: '20.04'
+      replace_frequency: quarterly
+      uuid_validity: last-3
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cloud-images.ubuntu.com/focal/current/SHA256SUMS
+    latest_url: https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img
+    versions:
+      - version: '20230607'
+        url: 
+          https://minio.services.osism.tech/openstack-image-manager/ubuntu-20.04/20230607-ubuntu-20.04.qcow2
+        checksum: sha256:e386db128554f8b866cff311955e099efd00c3d51cda5d592ee430d76f67dcb0
+        build_date: '2023-06-07'
+  - name: Ubuntu 20.04 Minimal
+    enable: true
+    shortname: ubuntu-20.04-minimal
+    format: qcow2
+    login: ubuntu
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_rng_model: virtio
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: ubuntu
+      os_version: '20.04'
+      replace_frequency: quarterly
+      uuid_validity: last-3
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cloud-images.ubuntu.com/minimal/releases/focal/release/SHA256SUMS
+    latest_url: 
+      https://cloud-images.ubuntu.com/minimal/releases/focal/release/ubuntu-20.04-minimal-cloudimg-amd64.img
+    versions:
+      - version: '20230606'
+        url: 
+          https://minio.services.osism.tech/openstack-image-manager/ubuntu-20.04-minimal/20230606-ubuntu-20.04-minimal.qcow2
+        checksum: sha256:201a642529acca34b731457d586ae21858098849b9bce39fe3936db19d689d65
+        build_date: '2023-06-06'
+  - name: Ubuntu 22.04
+    enable: true
+    shortname: ubuntu-22.04
+    format: qcow2
+    login: ubuntu
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_rng_model: virtio
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: ubuntu
+      os_version: '22.04'
+      replace_frequency: quarterly
+      uuid_validity: last-3
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cloud-images.ubuntu.com/jammy/current/SHA256SUMS
+    latest_url: https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
+    versions:
+      - version: '20230608'
+        url: 
+          https://minio.services.osism.tech/openstack-image-manager/ubuntu-22.04/20230608-ubuntu-22.04.qcow2
+        checksum: sha256:929965d004dd89417d3aedc3a05d13e6f208ce7177d1cc38c993c0e02538be93
+        build_date: '2023-06-08'
+  - name: Ubuntu 22.04 Minimal
+    enable: true
+    shortname: ubuntu-22.04-minimal
+    format: qcow2
+    login: ubuntu
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_rng_model: virtio
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: ubuntu
+      os_version: '22.04'
+      replace_frequency: quarterly
+      uuid_validity: last-3
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cloud-images.ubuntu.com/minimal/releases/jammy/release/SHA256SUMS
+    latest_url: 
+      https://cloud-images.ubuntu.com/minimal/releases/jammy/release/ubuntu-22.04-minimal-cloudimg-amd64.img
+    versions:
+      - version: '20230606'
+        url: 
+          https://minio.services.osism.tech/openstack-image-manager/ubuntu-22.04-minimal/20230606-ubuntu-22.04-minimal.qcow2
+        checksum: sha256:83b441bed3b65042d8993570ea7e9c35d3d88c5ae96dec25fc2efa4721d5a92f
+        build_date: '2023-06-06'

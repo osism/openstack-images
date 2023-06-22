@@ -1,0 +1,33 @@
+---
+images:
+
+  - name: Cirros
+    enable: true
+    format: qcow2
+    login: cirros
+    password: gocubsgo
+    min_disk: 1
+    min_ram: 32
+    status: active
+    visibility: public
+    multi: false
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_rng_model: virtio
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: cirros
+      replace_frequency: never
+      uuid_validity: none
+      provided_until: none
+    tags: []
+    versions:
+      - version: '0.6.0'
+        url: https://github.com/cirros-dev/cirros/releases/download/0.6.0/cirros-0.6.0-x86_64-disk.img
+        checksum: "sha256:94e1e2c94dbbae7d4bdc38e68590a1daf73c9de2d03dd693857b4b0a042548e8"
+        build_date: 2022-09-28
+      - version: '0.6.1'
+        url: https://github.com/cirros-dev/cirros/releases/download/0.6.1/cirros-0.6.1-x86_64-disk.img
+        checksum: "sha256:cc704ab14342c1c8a8d91b66a7fc611d921c8b8f1aaf4695f9d6463d913fa8d1"
+        build_date: 2022-11-22
